@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="handson2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div style="position: fixed;  width: 100%;
+    z-index: 99;
+    margin-top: -130px;" class="mainContainer my_container">
+            <nav class="navbar navbar-expand-md navbar-light bg-dark">
+                <a class="navbar-brand text-white" href="#">
+                    <h1>eStore</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+
+                    <i class="fa fa-bars fa-lg"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto mr_right">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">My Account </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">Wish List</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">Shopping</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-white hidden-md" href="#">Cart</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">Checkout</a>
+                        </li>
+                        <div class="d-md-none">
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#">Men</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#">kids</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#">Protective Wear</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#">Footwear</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#">Accessories</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#">Friday Casual</a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+            <div class="d-none d-md-block">
+                <div style="display: flex;">
+
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark" href="#">Men</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark" href="#">Women</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark" href="#">kids</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark" href="#">Protective Wear</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark" href="#">Footwear</a>
+                    </li>
+                    <li class="nav-item active">
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark" href="#">Friday casual</a>
+                    </li>
+                    <form class="form-inline px-5">
+                        <input class="form-control
+                        mr-4 px-4 
+                        " type="search" placeholder="searchforproducts&brands" aria aria-label="search">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container-fluid bg-light">
+        <div class="row top_space">
+            <div class="col-md-4 col-sm-12 px-5 h-20 img_center">
+                <img src="mask.jpeg " class="img-fluid " alt="mask">
+            </div>
+            <div class="col-md-4 col-sm-12 pt-5">
+                <h1>STAY HOME</h1>
+                <h1> STAY SAFE.</h1>
+            </div>
+            <div class="col-md-4 col-sm-12 pt-2">
+                <h6>Contactless Deliveries</h6>
+                <h6>All delivery staff trained in COVID-19 preventive measures</h6>
+                <h6>All delivery and warehouse staff are equipped with medical-grade hand santizers</h6>
+                <h6>All warehouses staff undergo daily mandatory thermal temperature scanning</h6>
+                <h6>No deliveries in 'highly affected' areas</h6>
+            </div>
+        </div>
+    </div>
+    <div class="title container">
+        <h1>Deals of the day</h1>
+        <div class="d-flex flex-row  flex-wrap container card_space py-3">
+
+            <div class="card " style="width: 9rem;">
+                <img src="placeholder.jpeg" class="card-img-top" alt="placeholder">
+                <div class="card-body">
+                    <h6 class="card-text"><a href=""> Sports & Fitness Gear Upto 80% off </a></h6>
+                </div>
+            </div>
+            <div class="card" style="width: 9rem;">
+                <img src="placeholder.jpeg" class="card-img-top" alt="placeholder">
+                <div class="card-body">
+                    <h6 class="card-text"><a href="">Branded Jeans Upto 50% Off </a></h6>
+                </div>
+            </div>
+            <div class="card" style="width: 9rem;">
+                <img src="placeholder.jpeg" class="card-img-top" alt="placeholder">
+                <div class="card-body">
+                    <h6 class="card-text"><a href=""> Branded Tshirts Upto 60% Off </a></h6>
+                </div>
+            </div>
+            <div class="card" style="width: 9rem;">
+                <img src="placeholder.jpeg" class="card-img-top" alt="placeholder">
+                <div class="card-body">
+                    <h6 class="card-text"><a href=""> Sports & Fitness Gear Upto 50% Off </a></h6>
+                </div>
+            </div>
+            <div class="card" style="width: 9rem;">
+                <img src="placeholder.jpeg" class="card-img-top" alt="placeholder">
+                <div class="card-body">
+                    <h6 class="card-text"><a href=""> Branded kids Tshirts Upto 40%Off </a></h6>
+                </div>
+            </div>
+            <div class="card" style="width: 9rem;">
+                <img src="placeholder.jpeg" class="card-img-top" alt="placeholder">
+                <div class="card-body">
+                    <h6 class="card-text"><a href=""> Sports Girls Tshirts Upto 50% Off </a></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="title container">
+        <h1>Fashion categories</h1>
+        <div class="d-flex flex-row  flex-wrap container card_space py-3">
+            <div class="card card-fashion-2 bg-info" style="width: 10rem;">
+                <img src="placeholder.jpeg" class="card-img-top" alt="placeholder">
+                <div class="card-body">
+                    <p class="card-text ">kurtas</p>
+                </div>
+            </div>
+            <div class="card bg-info" style="width: 10rem;">
+                <img src="placeholder.jpeg" class="card-img-top" alt="placeholder">
+                <div class="card-body">
+                    <p class="card-text">Shirts</p>
+                </div>
+            </div>
+            <div class="card bg-info" style="width: 10rem;">
+                <img src="placeholder.jpeg" class="card-img-top" alt="placeholder">
+                <div class="card-body">
+                    <p class="card-text">Pants</p>
+                </div>
+            </div>
+            <div class="card bg-info" style="width: 10rem;">
+                <img src="placeholder.jpeg" class="card-img-top" alt="placeholder">
+                <div class="card-body">
+                    <p class="card-text">Tshirts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex flex-row  flex-wrap container card_space py-3">
+        <div class="card card-fashion-2 bg-info" style="width: 10rem;">
+            <img src="placeholder.jpeg" class="card-img-top" alt="placeholder">
+            <div class="card-body">
+                <p class="card-text">Shoes</p>
+            </div>
+        </div>
+        <div class="card bg-info" style="width: 10rem;">
+            <img src="placeholder.jpeg" class="card-img-top" alt="placeholder">
+            <div class="card-body">
+                <p class="card-text">Casual Shirts</p>
+            </div>
+        </div>
+        <div class="card bg-info" style="width: 10rem;">
+            <img src="placeholder.jpeg" class="card-img-top" alt="placeholder">
+            <div class="card-body">
+                <p class="card-text">Jeans</p>
+            </div>
+        </div>
+        <div class="card bg-info" style="width: 10rem;">
+            <img src="placeholder.jpeg" class="card-img-top" alt="placeholder">
+            <div class="card-body">
+                <p class="card-text">Tops</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <p> Adidas | Arrow | Fila | Online Shopping | Nike | Pepe Jeans | Puma | united colors of benetton | fastrack |
+            shorts | being | human | skirts | woodland | supra dresses clothing | jewellery | T-shirts | shoes | bags | watches | caps | shirts | backpacks | flip
+            flops | sunglasses | kurtas | jackets | sketchers | saree | sandals | puma T-shirts | woodland shoes | titan watches | fastrack | watches | wrangler shirts |
+            adidas Tshirts | nike shoes | roadster shirts |casual shoes | running shoes | nike sports |
+            shoes | jeans | being human | tshirts | converse shoes | cricket shoes </p>
+    </div>
+    <footer id="footer">
+        <div class="container-fluid  bg-secondary">
+            <div class="row">
+                <div class="col-md-3 text-white ml-30">  
+                    <h5>MY ACCOUNT</h5>
+                    <p>Orders</p>
+                    <p>Returns/Refunds</p>
+                    <p>Track Oreders</p>
+                    <p>Frequently Asked quetions</p>
+                </div>
+                <div class="col-md-4 text-white">
+                    <h5>POLICIES</h5>
+                    <p>payment options</p>
+                    <p>terms & conditions of use</p>
+                    <p>terms & conditions of membership program</p>
+                    <p>offer terms & conditions</p>
+                    <p>returns & exchange policy</p>
+                    <p>shipping policy</p>
+                    <p>privacy policy</p>
+                    <p>safety checklist</p>
+                </div>
+                <div class="col-md-3 text-white">
+                    <h5>CONTACT US</h5>
+                    <p>customer support</p>
+                    <p>store locations</p>
+                    <p>help center</p>
+                    <h5>ABOUNT US</h5>
+                    <p>officail brand store</p>
+                    <p>about us</p>
+                    <p>careers</p>
+                </div>
+                <div class="col-md-2 text-white">
+                    <h5>SOCIAL</h5>
+                    <p>facebook</p>
+                    <p>twitter</p>
+                    <p>youtube</p>
+                </div>
+            </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
